@@ -253,25 +253,13 @@ body {
     margin-left: 210px;
     color: floralwhite;
 }
+
+.post-content-noimage {
+    color: floralwhite;
+}
 .post-title {
     font-weight: bold;
     font-size: 200%
-}
-
-#mydiv
-{
-    font-size:200%;
-    font-weight: bold;
-    color: floralwhite;
-}
-
-#mydiv a
-{
-    font-size:50%;
-    font-weight: lighter;
-    font-style: italic;
-    font-variant: small-caps;
-    color: floralwhite;
 }
 
 #mytittle
@@ -283,11 +271,11 @@ body {
 
 .post-container-title {
     margin: 20px 20px 0 0;  
-    border: 5px solid #30336b;;
+
     overflow: auto;
-    background-color: #30336b;;
+    background-color: #30336b;
     box-sizing: content-box;
-    border:2px solid #333;
+
 }
 
 .post-content-title {
@@ -305,3 +293,70 @@ body {
     width: 400px;
     height: 200px;
 }
+
+
+#mydiv
+{
+    font-size:200%;
+    font-weight: bold;
+    color: floralwhite;
+}
+
+#mydiv a
+{
+    font-size:50%;
+    font-weight: lighter;
+    font-style: italic;
+    font-variant: small-caps;
+    color: floralwhite;
+}
+
+.collapsible {
+    background-color: #d5d6d8;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+#middle {
+    background-color: #30336b;
+    color: #f1f1f1;
+}
+
+
+#upper {
+    color: #30336b;
+}
+
+.collapsible:hover {
+    background-color: #ccc;
+}
+  
+.inside-collapsible {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    max-height: 0;
+    transition: max-height 1.5s ease-out;
+    
+}
+
+.collapsible-title {
+    text-align: center;
+
+}
+
+.collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 20px;
+    color: #000;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .collapsible.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
