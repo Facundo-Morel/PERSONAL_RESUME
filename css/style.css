@@ -67,6 +67,25 @@ body {
     background-color: #fff;
 }
 
+.btn {
+    background-color: #006400;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .btn-text {
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  .btn:hover {
+    background-color: rgba(204, 13, 13, 0.926);
+  }
 
 .titleMessage {
     position: absolute;
