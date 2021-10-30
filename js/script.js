@@ -14,26 +14,14 @@ $(document).ready(function(){
         showCursor: false
     });
 
-    $('.owl-carousel').owlCarousel({
-        loop:true,
+    $(".owl-carousel").owlCarousel({
         items: 4,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            480:{
-                items:2
-            },
-            768:{
-                items:3
-            },
-            938:{
-                items:4
-            }
+        autoplay: true,
+        nav: true,
+        navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+    });
 
-        }
-    })
+    
 
 
 
