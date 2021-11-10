@@ -75,6 +75,10 @@ $(document).ready(function(){
         }
     })
 
+    $("#filters a").click(function () {
+        
+    })
+
 
 });
 
